@@ -13,9 +13,9 @@ public class MainAlgoritmoBubbleSort {
 
 		// Popula o vetor de com uma ordem aleatoria
 		p.crescente(vetorCrescente);
+
 		
-		
-		for (int i = 0; i < vetorCrescente.length; i++ ){
+		for (int i = 0; i <	 vetorCrescente.length; i++ ){
 			if (i == 0){
 				System.out.println("==========================================================\n");
 				System.out.print("\n");
