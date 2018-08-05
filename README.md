@@ -9,3 +9,10 @@ Uma executando fixamente com o primeiro valor encontrado enquanto a outra faz um
 O algoritmo em si se utiliza de seus meios de comparação para ordenar o vetores, mas além das suas linhas de código ele depende muito do tamanho dos arrays recebidos e se eles estao ordenados ou não. No exemplo da imagem abaixo eu utilizei um array com 10 posições, um ordenado de forma Crescente, um Decrescente e um Desordenado (Aleatório). Esses arrays representam o melhor, pior e caso médio que este algoritmo pode apresentar em termos de número de interações necessarias para se fazer a ordenação.
 
 ![enter image description here](https://lh3.googleusercontent.com/1DNEL_TqfPWGPMzjGe7C2zNKnBIx4ajQLDDMa5XlOgzh2yZRCtIOz-XiERAZiDzIq4EOC6QKG-DftA "AlgoritmoBubbleSort")
+
+## Testes de desempenho
+
+Agora fazendo os mesmos testes com vetores de 1 a 100, gerados com valores Crescentes, Decrescentes e Aleatorios, fazendo com que o algoritmo escrevece a quantidade de interações feitas com cada tipo de vetor, conseguimos retirar um gráfico no Br Office Calc e obtemos os seguintes resultados apresentados no gráfico a seguir.
+
+![enter image description here](https://lh3.googleusercontent.com/UZvSPw2Kp446bl7Twlp26PtYvpotKrQ7Q0e3jdHp5wQh5dLle7Fdbk2cfJG5sWGVFSyzxyQIOeDmBg "Grafico de Interações do algoritmo Bubble Sort")
+
