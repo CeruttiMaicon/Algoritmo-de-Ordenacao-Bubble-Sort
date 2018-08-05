@@ -16,6 +16,12 @@ Agora fazendo os mesmos testes com vetores de 1 a 100, gerados com valores Cresc
 
 ![enter image description here](https://lh3.googleusercontent.com/UZvSPw2Kp446bl7Twlp26PtYvpotKrQ7Q0e3jdHp5wQh5dLle7Fdbk2cfJG5sWGVFSyzxyQIOeDmBg "Grafico de Interações do algoritmo Bubble Sort")
 
+## Comparação do Algoritmo SelectionSort com o BubbleSort
+
+Como apresentado no gráfico abaixo temos o numero de interações que cada um dos algoritmos nos trás, estando no pior caso, caso médio ou pior caso, independente do tamanho do array ele sempre cresce de uma forma exponencial. O gráfico mostra de uma forma mais clara o seu número de interações.
+
+![enter image description here](https://lh3.googleusercontent.com/R2mbTKjFrHGQVOzOylpX2gv6nb6qlewgTmz7x2sqOPPF99EO-l59qqf0vKx8coQLdM40R9wtxyuCSA "Gráfico de Interações do algoritmo BubbleSort e SelectionSort")
+
 ## Sobre o trabalho
 
 Os dados utilizados para gerar o gráfico são do retorno do algoritmo criado neste projeto. O arquivo CSV utilizado para a criação do gráfico se encontra dentro da pasta "src" com o nome de "arrayBubbleSort.csv".
