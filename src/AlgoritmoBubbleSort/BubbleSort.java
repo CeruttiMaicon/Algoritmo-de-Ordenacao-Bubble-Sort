@@ -2,7 +2,7 @@ package AlgoritmoBubbleSort;
 
 public class BubbleSort {
 	
-	public int metodo (int[] vetor){
+	public int recebeVetor (int[] vetor){
 		
 		int i, j, aux;
 		int tamVetor = vetor.length;
