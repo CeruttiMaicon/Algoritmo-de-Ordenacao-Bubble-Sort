@@ -27,9 +27,9 @@ public class MainCSV {
                 int[] aleatorioVar      = new int[n];
 
                 // Adicionando os elementos na filaCrescentes
-                p.aleatorio(aleatorioVar);
                 p.crescente(crescenteVar);
                 p.decrescente(decrescenteVar);
+                p.aleatorio(aleatorioVar);
 
                 BubbleSort bubblesort1 = new BubbleSort();
                 BubbleSort bubblesort2 = new BubbleSort();
