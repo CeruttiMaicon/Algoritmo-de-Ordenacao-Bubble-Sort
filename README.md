@@ -16,3 +16,11 @@ Agora fazendo os mesmos testes com vetores de 1 a 100, gerados com valores Cresc
 
 ![enter image description here](https://lh3.googleusercontent.com/UZvSPw2Kp446bl7Twlp26PtYvpotKrQ7Q0e3jdHp5wQh5dLle7Fdbk2cfJG5sWGVFSyzxyQIOeDmBg "Grafico de Interações do algoritmo Bubble Sort")
 
+## Sobre o trabalho
+
+Os dados utilizados para gerar o gráfico são do retorno do algoritmo criado neste projeto. O arquivo CSV utilizado para a criação do gráfico se encontra dentro da pasta "src" com o nome de "arrayBubbleSort.csv".
+
+## Execução
+No código da Classe MainCSV na linha 15, existe uma tag que deve ser mudada para gerar o arquivo CSV, ali eu especifiquei uma pasta do meu ambiente de trabalho no Ubuntu, mas deve-se trocar o local de criação do arquivo.
+
+Após a execução do algoritmo e receber a mensagem de "Arquivo CSV criado com Sucesso!" o seu arquivo CSV é criado. E com ele eu criei o gráfico da imagem acima.
