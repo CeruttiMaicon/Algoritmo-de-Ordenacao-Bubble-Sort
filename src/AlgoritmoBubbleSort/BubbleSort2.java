@@ -1,6 +1,6 @@
 package AlgoritmoBubbleSort;
 
-public class BubbleSort {
+public class BubbleSort2 {
 	
 	public int recebeVetor (int[] vetor){
 		
