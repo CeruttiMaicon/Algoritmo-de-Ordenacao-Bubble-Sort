@@ -22,9 +22,31 @@ Como apresentado no gráfico abaixo temos o numero de interações que cada um d
 
 ![enter image description here](https://lh3.googleusercontent.com/R2mbTKjFrHGQVOzOylpX2gv6nb6qlewgTmz7x2sqOPPF99EO-l59qqf0vKx8coQLdM40R9wtxyuCSA "Gráfico de Interações do algoritmo BubbleSort e SelectionSort")
 
+## Melhorando o Bubble Sort
+
+Agora veremos um pequeno ajuste no algoritmo do Bubble Sort para ajudar ele no seu desempenho com vetores que já vem ordenados. Concordamos que se ele já está ordenado ele não necessita fazer algumas etapas de veritificação, o que faz com que o número de interações seja bem menor. Veja abaixo como a classe BubbleSort2 tem sido utilizada, e como o número de interações mudou.
+
+![
+](https://lh3.googleusercontent.com/QHUEoUWY3WK3I3_hCoSzwOjTEV-DX8xKJJofGnnb0WPIUmOuR5WnhXGQLIVtJx5_zGhGWmQtpMWV6A "Vetor ordenado com o BubbleSort2")
+
+Em um vetor crescente o número de interações despencou para 9, assim o número de interações com um vetor de tamanho N é N - 1.
+
+Vejamos aqui como os gráficos se comportam.
+
+![enter image description here](https://lh3.googleusercontent.com/QRCOEosAJuh_l3mphFS0M60Bha6We4SjmtjArhXclld1m-CG687xAHgdsSCHEbf6QRDU1XtYrw_n_w "BubbleSort2")
+
+## Comparação do Algoritmo SelectionSort com o BubbleSort e BubbleSort2
+
+Assim conseguimos concluir que o algortimo BubbleSort 2 tem um desempenho gigantesco pois o número de interações que ele faz com um algoritmo já ordenado é bem pequeno, porem em seu pior caso e no caso médio ele se apresenta ainda pior que o Selection Sort e o BubbleSort1 (da primeira versao do código).
+
+![
+](https://lh3.googleusercontent.com/rROl2NDCJgZ2zgqDxLBWjUIcJoW61zh4kiT1IXHPCgpcajdMyu0oa_GlYbzwB0LSonN3h1Zo41Si1A "Grafico de comparação algoritmo bublesort2")
+
+
+
 ## Sobre o trabalho
 
-Os dados utilizados para gerar o gráfico são do retorno do algoritmo criado neste projeto. O arquivo CSV utilizado para a criação do gráfico se encontra dentro da pasta "src" com o nome de "arrayBubbleSort.csv".
+Os dados utilizados para gerar o gráfico são do retorno do algoritmo criado neste projeto. O arquivo CSV utilizado para a criação dos gráficos se encontra dentro da pasta "src".
 
 ## Execução
 No código da Classe MainCSV na linha 15, existe uma tag que deve ser mudada para gerar o arquivo CSV, ali eu especifiquei uma pasta do meu ambiente de trabalho no Ubuntu, mas deve-se trocar o local de criação do arquivo.
